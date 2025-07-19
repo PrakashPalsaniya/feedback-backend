@@ -1,0 +1,22 @@
+{
+  "name": "feedback-backend",
+  "version": "1.0.0",
+  "main": "api/server/route.js",
+  "scripts": {
+    "start": "node api/server/route.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4",
+    "nodemon": "^3.1.10",
+    "sentiment": "^5.0.2"
+  }
+}
