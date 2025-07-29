@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({
-  origin: '*',  
+  origin: 'https://feedback-frontend-updated.vercel.app',  
   credentials: true     
 }));
 
